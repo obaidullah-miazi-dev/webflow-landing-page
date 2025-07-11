@@ -45,8 +45,8 @@ body {
 
 .btn {
     font-size: 16px;
-    font-weight: 600;
-    padding: 12px 36px;
+    font-weight: 500;
+    padding: 15px 36px;
     border-radius: 10px;
     border: none;
     color: white;
@@ -207,6 +207,7 @@ body {
     background-color: white;
     padding: 70px 150px;
     border-radius: 14px;
+    margin-bottom: 90px;
 }
 
 .promo-title{
@@ -228,3 +229,60 @@ body {
     margin-top: 20px;
 }
 
+/* contact section  */
+
+.contact-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+.contact-section-title{
+    font-size: 100px;
+    font-weight: 400;
+}
+
+form label{
+    font-size: 18px;
+    font-family: inter;
+    margin-bottom: 10px;
+}
+
+form input{
+    width: 500px;
+    height: 30px;
+    padding: 20px 32px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: inter;
+}
+
+form textarea{
+    width: 500px;
+    height: 100px;
+    padding: 20px 32px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: inter;  
+}
+
+form input,textarea,label{
+    display: block;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.get-in-touch-btn{
+    padding: 25px;
+    font-size: 18px;
+}
