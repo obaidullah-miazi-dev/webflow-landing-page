@@ -50,6 +50,8 @@ body {
     border-radius: 10px;
     border: none;
     color: white;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 /* banner section  */
@@ -135,42 +137,42 @@ body {
 
 /* user review section */
 
-.user-review-section{
+.user-review-section {
     margin-bottom: 135px;
 }
 
-.user-review-section-heading{
+.user-review-section-heading {
     font-size: 42px;
     text-align: center;
 }
 
-.user-review-card-section{
+.user-review-card-section {
     display: flex;
     gap: 20px;
 }
 
-.user-review-card{
+.user-review-card {
     background-color: white;
     padding: 24px;
     border-radius: 14px;
     border: 1px solid #F2EDED;
 }
 
-.user-review-title{
+.user-review-title {
     font-size: 24px;
     font-family: inter;
     margin: 0;
     margin-top: 24px;
 }
 
-.user-review-subtitle{
+.user-review-subtitle {
     font-size: 16px;
     font-family: open sans;
     margin: 0;
     margin-top: 8px;
 }
 
-.reviewer-details{
+.reviewer-details {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -183,15 +185,15 @@ body {
     border-radius: 100px;
 }
 
-.reviewer-name{
-   color: #303030; 
-   font-size: 16px;
-   font-family: inter;
-   margin: 0;
-   margin-bottom: 2px;
+.reviewer-name {
+    color: #303030;
+    font-size: 16px;
+    font-family: inter;
+    margin: 0;
+    margin-bottom: 2px;
 }
 
-.review-date{
+.review-date {
     font-size: 16px;
     margin: 0;
     color: #525252;
@@ -200,7 +202,7 @@ body {
 
 /* promo-section */
 
-.promo-section{
+.promo-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -210,13 +212,13 @@ body {
     margin-bottom: 90px;
 }
 
-.promo-title{
+.promo-title {
     font-size: 50px;
     margin: 0;
     margin-bottom: 20px;
 }
 
-.promo-subtitle{
+.promo-subtitle {
     font-size: 16px;
     margin: 0;
     font-family: inter;
@@ -231,25 +233,26 @@ body {
 
 /* contact section  */
 
-.contact-section{
+.contact-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 70px;
     padding: 70px 0;
 }
 
-.contact-section-title{
-    font-size: 100px;
-    font-weight: 400;
+.contact-section-title {
+    font-size: 80px;
+    font-weight: 500;
 }
 
-form label{
+form label {
     font-size: 18px;
     font-family: inter;
     margin-bottom: 10px;
 }
 
-form input{
+form input {
     width: 500px;
     height: 30px;
     padding: 20px 32px;
@@ -259,30 +262,73 @@ form input{
     margin-bottom: 20px;
     font-size: 18px;
     font-family: inter;
+    border: 1px solid #D6DDED;
 }
 
-form textarea{
+form textarea {
     width: 500px;
     height: 100px;
     padding: 20px 32px;
-    border: none;
     border-radius: 10px;
     background-color: white;
     margin-bottom: 20px;
     font-size: 18px;
-    font-family: inter;  
+    font-family: inter;
+    border: 1px solid #D6DDED;
 }
 
-form input,textarea,label{
+form input,
+textarea,
+label {
     display: block;
 }
 
-.contact-form{
+.contact-form {
     display: flex;
     flex-direction: column;
 }
 
-.get-in-touch-btn{
+.get-in-touch-btn {
     padding: 25px;
     font-size: 18px;
+}
+
+/* footer section  */
+
+.footer-section {
+    text-align: center;
+    padding: 105px 455px;
+    background-color: white;
+}
+
+.footer-logo {
+    font-size: 70px;
+    font-family: inter;
+    font-weight: bolder;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.footer-description {
+    font-size: 20px;
+    font-family: inter;
+    color: #8987A1;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: inter;
+    color: #8987A1;
+    margin: 48px;
+}
+
+.footer-links {
+    margin-top: 40px;
+}
+
+/* hover effects */
+
+.btn:hover{
+    background-color: #05025e;
 }
