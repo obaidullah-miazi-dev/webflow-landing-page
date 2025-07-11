@@ -4,7 +4,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
-    background-color: #D6DDED;
+    background-color: #f5f8ff;
 }
 
 /* shared style  */
@@ -61,4 +61,39 @@ body{
 .banner-title{
     font-size: 65px;
     font-weight: bold;
+}
+
+/* main-section */
+
+.main-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* action-section */
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 115px 0;
+}
+
+.action-section-title{
+    font-size: 42px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.action-section-subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.action-section img {
+    border-radius: 48px;
+    width: 400px;
 }
