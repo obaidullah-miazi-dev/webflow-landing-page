@@ -75,5 +75,9 @@ This project is open source and available under the MIT License.
 
 🔗 Connect with Me
 
-LinkedIn: www.linkedin.com/in/obaidullah-miazi
-GitHub: https://github.com/obaidullah-miazi-dev
+GitHub:(https://github.com/obaidullah-miazi-dev)  
+
+LinkedIn: (http://www.linkedin.com/in/obaidullah-miazi)  
+
+Email: (obaidullahmiazi.dev@gmail.com)
+
